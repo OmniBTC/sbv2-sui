@@ -1,10 +1,10 @@
 <div align="center">
-  <a href="#">
-    <img src="https://github.com/switchboard-xyz/sbv2-core/raw/main/website/static/img/icons/switchboard/avatar.png" />
-  </a>
 
-  <h1>sbv2-sui / feed-parser</h1>
-  <p>An example contract reading the price of a Switchboard V2 data feed on-chain.</p>
+![Switchboard Logo](https://github.com/switchboard-xyz/sbv2-core/raw/main/website/static/img/icons/switchboard/avatar.png)
+
+# Sui Mainnet feed-parser
+
+> An example contract reading the price of a Switchboard V2 data feed on-chain.
 
 </div>
 

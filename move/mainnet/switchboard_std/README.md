@@ -1,11 +1,10 @@
 <div align="center">
-  <a href="#">
-    <img src="https://github.com/switchboard-xyz/sbv2-core/raw/main/website/static/img/icons/switchboard/avatar.png" />
-  </a>
 
-  <h1>switchboard-move</h1>
+![Switchboard Logo](https://github.com/switchboard-xyz/sbv2-core/raw/main/website/static/img/icons/switchboard/avatar.png)
 
-  <p>A Move module to interact with Switchboard V2 on Sui Mainnet.</p>
+# switchboard-move
+
+> A Move module to interact with Switchboard V2 on Sui Mainnet.
 
 </div>
 

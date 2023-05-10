@@ -1,17 +1,14 @@
 <div align="center">
-  <a href="#">
-    <img src="https://github.com/switchboard-xyz/sbv2-core/raw/main/website/static/img/icons/switchboard/avatar.png" />
-  </a>
 
-  <h1>Switchboard V2</h1>
+![Switchboard Logo](https://github.com/switchboard-xyz/sbv2-core/raw/main/website/static/img/icons/switchboard/avatar.png)
 
-  <p>A collection of libraries and examples for interacting with Switchboard V2 on Sui.</p>
+# Switchboard x Sui
 
-  <p>
-	  <a href="https://www.npmjs.com/package/@switchboard-xyz/sui.js">
-      <img alt="NPM Badge" src="https://img.shields.io/github/package-json/v/switchboard-xyz/sbv2-sui?color=red&filename=javascript%2Fsui.js%2Fpackage.json&label=%40switchboard-xyz%2Fsui.js&logo=npm" />
-    </a>
-  </p>
+> A collection of libraries and examples for interacting with Switchboard V2 on
+> Sui.
+
+[![NPM Badge](https://img.shields.io/github/package-json/v/switchboard-xyz/sbv2-sui?color=red&filename=javascript%2Fsui.js%2Fpackage.json&label=%40switchboard-xyz%2Fsui.js&logo=npm)](https://www.npmjs.com/package/@switchboard-xyz/sui.js)
+
 </div>
 
 ## Getting Started
@@ -30,7 +27,7 @@ cd sbv2-sui
 pnpm install
 ```
 
-## Program IDs
+## Addresses
 
 The following addresses can be used with the Switchboard deployment on Sui
 
@@ -53,7 +50,7 @@ The following addresses can be used with the Switchboard deployment on Sui
 | SwitchboardStdLib    | `0x524c15a935d4c34474cdf2604ee42a6c47591d13c6ffb6b678f6b7eaffba12fe` |
 | Permissionless Queue | `0xaabd44ddf31bd5ea2971777fc848c33411942d0128976e4e8d787d2d59e8259a` |
 
-## Libraries
+## Clients
 
 | **Lang**   | **Name**                                                 | **Description**                                            |
 | ---------- | -------------------------------------------------------- | ---------------------------------------------------------- |
@@ -63,18 +60,13 @@ The following addresses can be used with the Switchboard deployment on Sui
 
 ## Example Programs
 
-<!-- examples -->
-
-<!-- examplesstop -->
-
-- [feed-parser-mainnet](/programs/mainnet/feed-parser/): Read a Switchboard feed
-  on Sui Mainnet
-- [feed-parser-testnet](/programs/testnet/feed-parser/): Read a Switchboard feed
-  on Sui Testnet
+| **Lang** | **Name**                                              | **Description**                         |
+| -------- | ----------------------------------------------------- | --------------------------------------- |
+| Move     | [feed-parser](programs/mainnet/feed-parser)           | Read a Switchboard feed on Sui"         |
+| Move     | [feed-parser (testnet)](programs/testnet/feed-parser) | Read a Switchboard feed on Sui testnet" |
 
 ## Troubleshooting
 
-1. File a
-   [GitHub Issue](https://github.com/switchboard-xyz/sbv2-solana/issues/new)
+1. File a [GitHub Issue](https://github.com/switchboard-xyz/sbv2-sui/issues/new)
 2. Ask a question in
    [Discord #dev-support](https://discord.com/channels/841525135311634443/984343400377647144)
