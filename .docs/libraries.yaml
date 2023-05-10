@@ -1,0 +1,13 @@
+libraries:
+  - name: "switchboard"
+    description: "A Move module to interact with Switchboard on Sui mainnet."
+    language: "move"
+    path: "move/mainnet/switchboard"
+  - name: "switchboard (testnet)"
+    description: "A Move module to interact with Switchboard on Sui testnet."
+    language: "move"
+    path: "move/testnet/switchboard"
+  - name: "@switchboard-xyz/sui.js"
+    description: "A Typescript client to interact with Switchboard on Sui."
+    language: "javascript"
+    path: "javascript/sui.js"
