@@ -38,11 +38,15 @@ pnpm install
 
 ## Libraries
 
-<!-- libraries -->
+<!-- clients -->
 
-<!-- librariesstop -->
+<!-- clientsstop -->
 
 ## Example Programs
+
+<!-- examples -->
+
+<!-- examplesstop -->
 
 - [feed-parser-mainnet](/programs/mainnet/feed-parser/): Read a Switchboard feed
   on Sui Mainnet

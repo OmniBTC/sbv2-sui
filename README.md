@@ -34,7 +34,7 @@ pnpm install
 
 The following addresses can be used with the Switchboard deployment on Sui
 
-#### Mainnet
+### Mainnet
 
 | Account              | Address                                                              |
 | -------------------- | -------------------------------------------------------------------- |
@@ -44,7 +44,7 @@ The following addresses can be used with the Switchboard deployment on Sui
 | Permissioned Queue   | `0xea802bde1319363a27134a72a9d2f45e110fd60ef32ab2e10cdb06c973d6c64f` |
 | Permissionless Queue | `0xe9324b82374f18d17de601ae5a19cd72e8c9f57f54661bf9e41a76f8948e80b5` |
 
-#### Testnet
+### Testnet
 
 | Account              | Address                                                              |
 | -------------------- | -------------------------------------------------------------------- |
@@ -62,6 +62,10 @@ The following addresses can be used with the Switchboard deployment on Sui
 | Javascript | [@switchboard-xyz/sui.js](javascript/sui.js)             | A Typescript client to interact with Switchboard on Sui.   |
 
 ## Example Programs
+
+<!-- examples -->
+
+<!-- examplesstop -->
 
 - [feed-parser-mainnet](/programs/mainnet/feed-parser/): Read a Switchboard feed
   on Sui Mainnet
