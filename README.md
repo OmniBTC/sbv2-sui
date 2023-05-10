@@ -12,19 +12,6 @@
       <img alt="NPM Badge" src="https://img.shields.io/github/package-json/v/switchboard-xyz/sbv2-sui?color=red&filename=javascript%2Fsui.js%2Fpackage.json&label=%40switchboard-xyz%2Fsui.js&logo=npm" />
     </a>
   </p>
-
-  <p>
-    <a href="https://discord.gg/switchboardxyz">
-      <img alt="Discord" src="https://img.shields.io/discord/841525135311634443?color=blueviolet&logo=discord&logoColor=white" />
-    </a>
-    <a href="https://twitter.com/switchboardxyz">
-      <img alt="Twitter" src="https://img.shields.io/twitter/follow/switchboardxyz?label=Follow+Switchboard" />
-    </a>
-  </p>
-
-  <h4>
-    <strong>Documentation: </strong><a href="https://docs.switchboard.xyz">docs.switchboard.xyz</a>
-  </h4>
 </div>
 
 ## Getting Started
@@ -45,32 +32,45 @@ pnpm install
 
 ## Program IDs
 
-| **Network** | **Program ID**                                                       |
-| ----------- | -------------------------------------------------------------------- |
-| mainnet     | `0xfd2e0f4383df3ec9106326dcd9a20510cdce72146754296deed15403fcd3df8b` |
-| testnet     | `0x271beaa1f36bf8812a778f0df5a7a9f67a757008512096862a128c42923671e2` |
+The following addresses can be used with the Switchboard deployment on Sui
 
-See [switchboard.xyz/explorer](https://staging.app.switchboard.xyz/sui/mainnet) for a list of
-feeds deployed on Sui.
+#### Mainnet
 
-See [app.switchboard.xyz](https://staging.app.switchboard.xyz/build/feed) to create your own Sui
-feeds.
+| Account              | Address                                                              |
+| -------------------- | -------------------------------------------------------------------- |
+| Program ID           | `0xfd2e0f4383df3ec9106326dcd9a20510cdce72146754296deed15403fcd3df8b` |
+| Program Authority    | `0xcf2d51b3ca8c23e0ba312392d213b1293a3121f691fa8e120f1a968fc2ad1c8b` |
+| SwitchboardStdLib    | `0x08d79f4d920b03d88faca1e421af023a87fbb1e4a6fd200248e6e9998d09e470` |
+| Permissioned Queue   | `0xea802bde1319363a27134a72a9d2f45e110fd60ef32ab2e10cdb06c973d6c64f` |
+| Permissionless Queue | `0xe9324b82374f18d17de601ae5a19cd72e8c9f57f54661bf9e41a76f8948e80b5` |
+
+#### Testnet
+
+| Account              | Address                                                              |
+| -------------------- | -------------------------------------------------------------------- |
+| Program ID           | `0x271beaa1f36bf8812a778f0df5a7a9f67a757008512096862a128c42923671e2` |
+| Program Authority    | `0xc9c8e0d738d7f090144847b38a8283fbe8050923875771b8c315a461721c04a4` |
+| SwitchboardStdLib    | `0x524c15a935d4c34474cdf2604ee42a6c47591d13c6ffb6b678f6b7eaffba12fe` |
+| Permissionless Queue | `0xaabd44ddf31bd5ea2971777fc848c33411942d0128976e4e8d787d2d59e8259a` |
 
 ## Libraries
 
-| **Lang**       | **Name**                                                                                                                                                                                    | **Description**                                                           |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Move [Mainnet] | [switchboard](/move/mainnet/switchboard_std/)                                                                                                                                               | Move module to deserialize and read Switchboard data feeds on sui mainnet |
-| Move [Testnet] | [switchboard](/move/testnet/switchboard_std/)                                                                                                                                               | Move module to deserialize and read Switchboard data feeds on sui testnet |
-| JS             | [@switchboard-xyz/sui.js](/javascript/sui.js/) <br />[[npmjs](https://www.npmjs.com/package/@switchboard-xyz/sui.js), [Typedocs](https://docs.switchboard.xyz/api/@switchboard-xyz/sui.js)] | Typescript package to interact with Switchboard V2                        |
+| **Lang**   | **Name**                                                 | **Description**                                            |
+| ---------- | -------------------------------------------------------- | ---------------------------------------------------------- |
+| Move       | [SwitchboardStd](move/mainnet/switchboard_std)           | A Move module to interact with Switchboard on Sui mainnet. |
+| Move       | [SwitchboardStd (testnet)](move/testnet/switchboard_std) | A Move module to interact with Switchboard on Sui testnet. |
+| Javascript | [@switchboard-xyz/sui.js](javascript/sui.js)             | A Typescript client to interact with Switchboard on Sui.   |
 
 ## Example Programs
 
-- [feed-parser-mainnet](/programs/mainnet/feed-parser/): Read a Switchboard feed on Sui Mainnet
-- [feed-parser-testnet](/programs/testnet/feed-parser/): Read a Switchboard feed on Sui Testnet
+- [feed-parser-mainnet](/programs/mainnet/feed-parser/): Read a Switchboard feed
+  on Sui Mainnet
+- [feed-parser-testnet](/programs/testnet/feed-parser/): Read a Switchboard feed
+  on Sui Testnet
 
 ## Troubleshooting
 
-1. File a [GitHub Issue](https://github.com/switchboard-xyz/sbv2-sui/issues/new)
+1. File a
+   [GitHub Issue](https://github.com/switchboard-xyz/sbv2-solana/issues/new)
 2. Ask a question in
    [Discord #dev-support](https://discord.com/channels/841525135311634443/984343400377647144)
